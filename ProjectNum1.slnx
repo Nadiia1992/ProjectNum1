@@ -1,0 +1,38 @@
+<Solution>
+  <Project Path="../../../../../source/repos/ProjectNum1/Account/Account.csproj" Id="0a84408d-7722-4b11-9780-8b7c92cf9517" />
+  <Project Path="../../../../../source/repos/ProjectNum1/Array1/Array1.csproj" Id="e3f0d311-e32a-44bb-8e6d-414cd6f854ed" />
+  <Project Path="../../../../../source/repos/ProjectNum1/Array2/Array2.csproj" Id="2f539f7e-365d-4378-ba21-c64341fff8ad" />
+  <Project Path="../../../../../source/repos/ProjectNum1/Array3/Array3.csproj" Id="4f39b74c-9191-464e-9933-f821e4be551c" />
+  <Project Path="../../../../../source/repos/ProjectNum1/Class/Class.csproj" Id="31a35317-6325-424b-8225-574f77ccc023" />
+  <Project Path="../../../../../source/repos/ProjectNum1/ConsoleApp1/ConsoleApp1.csproj" Id="b748eedb-9f52-471c-ad81-7ec5a7d1d5f3" />
+  <Project Path="../../../../../source/repos/ProjectNum1/ConsoleApp2/ConsoleApp2.csproj" Id="4d84cc67-c2a6-4d02-b11f-9acf1346a734" />
+  <Project Path="../../../../../source/repos/ProjectNum1/ConsoleApp3/ConsoleApp3.csproj" Id="ab61d154-982d-499a-a5ab-11aeeac7e305" />
+  <Project Path="../../../../../source/repos/ProjectNum1/ConsoleApp4/ConsoleApp4.csproj" Id="5ceeb3f4-bf23-4a8a-ae47-6ac032afed7d" />
+  <Project Path="../../../../../source/repos/ProjectNum1/Date/Date.csproj" Id="5faa7912-5fb7-4f20-9ef2-f6664f6414f6" />
+  <Project Path="../../../../../source/repos/ProjectNum1/employee/employee.csproj" Id="6b384e8c-db1c-429b-897b-8fca80ac09b8" />
+  <Project Path="../../../../../source/repos/ProjectNum1/HomeW1/HomeW1.csproj" Id="c9303dc2-13d3-4296-be0e-bc57e485ce42" />
+  <Project Path="../../../../../source/repos/ProjectNum1/HomeW2/HomeW2.csproj" Id="60268e8c-d35a-438e-ac4f-a39733ded936" />
+  <Project Path="../../../../../source/repos/ProjectNum1/HomeW3/HomeW3.csproj" Id="a3613ff5-f554-4639-b9c0-2472350f9b5e" />
+  <Project Path="../../../../../source/repos/ProjectNum1/NumberAms/NumberAms.csproj" Id="1713a241-9bce-421c-9bd4-3b621dd877e8" />
+  <Project Path="../../../../../source/repos/ProjectNum1/numbersLine/numbersLine.csproj" Id="e2a94f94-45ba-4866-a9fd-92aff53d3445" />
+  <Project Path="../../../../../source/repos/ProjectNum1/ProjectNum1/ProjectNum1.csproj" />
+  <Project Path="../../../../../source/repos/ProjectNum1/ProjectNum2/ProjectNum2.csproj" Id="d67b5a52-06ea-4d6f-8883-29f15e603809" />
+  <Project Path="../../../../../source/repos/ProjectNum1/String/String.csproj" Id="f2a4b369-755f-4557-8438-f89436db9b3e" />
+  <Project Path="../../../../../source/repos/ProjectNum1/ToUpper/ToUpper.csproj" Id="9e34013e-dba7-4b16-839c-c41675d891a1" />
+  <Project Path="ArrayDouble/ArrayDouble.csproj" Id="e5e41d53-9870-4a97-96af-8be54631b18c" />
+  <Project Path="Bank/Bank.csproj" Id="aa8400b8-fa06-4aca-9239-ed7565d78089" />
+  <Project Path="Book/Book.csproj" Id="1e3f351a-5dd0-4636-81f9-0d86e908a893" />
+  <Project Path="Course/Course.csproj" Id="d0903723-5d2c-40da-b655-02e8dcaa1135" />
+  <Project Path="EmployeeBook/EmployeeBook.csproj" Id="3c457165-9cc5-43aa-a3e2-66b5a365f699" />
+  <Project Path="EmployeeNew/EmployeeNew.csproj" Id="3c1cf0c3-b38f-4e28-a2e9-b9ff9e5576dc" />
+  <Project Path="Enum/Enum.csproj" Id="ab3cd957-3ed9-4f61-a91c-a717a2faca21" />
+  <Project Path="FileNew1/FileNew1.csproj" Id="3916e655-fe81-4c5b-9f18-8582fe7cf7ef" />
+  <Project Path="FileWork/FileWork.csproj" Id="63fc643c-9fab-4829-b554-3dd9162bc041" />
+  <Project Path="Fractal/Fraction.csproj" Id="647dc2af-6c73-4e2e-8b63-122bb16c5db7" />
+  <Project Path="Human/Human.csproj" Id="805a2640-e41a-441b-94ac-ad7a11b34e0d" />
+  <Project Path="Passport/Passport.csproj" Id="ea359f83-a3d9-4418-a9a1-49640415fb3b" />
+  <Project Path="PassportNew/PassportNew.csproj" Id="abfffbe8-f11f-4733-950d-55b8b6453288" />
+  <Project Path="rand/rand.csproj" Id="649f83ea-08c4-46d1-9e8e-6fe082390429" />
+  <Project Path="Warehouse/Warehouse.csproj" Id="f7739107-89e5-4bfc-a747-d35e08606d90" />
+  <Project Path="Worker/Worker.csproj" Id="a5d8b1fa-0c0b-42fe-bc38-ebeed66a400b" />
+</Solution>
