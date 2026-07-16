@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Діалогові вікна</title>
+</head>
+
+<body>
+    <h1>Особисті дані</h1>
+    <script>
+    let name, male, age, mail
+        do {
+          name = (prompt("Введіть ПІБ:",""));
+          male = (prompt("Введіть стать (Ч/Ж):",""));
+          age = (prompt("Введіть вік:",""));
+          mail = (prompt("Введіть email:",""));
+        }
+        while (!confirm( 
+        "ПІБ: " + name + "\n" + 
+        "Стать: " + male + "\n" +
+        "Вік: " + age + "\n" +
+        "Email: " + mail + "\n\n" +
+        "Усе правильно?"));
+        alert("Дякую за інформацію!"
+        );
+    </script>
+</body>
+
+</html>

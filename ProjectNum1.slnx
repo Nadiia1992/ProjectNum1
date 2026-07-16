@@ -30,6 +30,7 @@
   <Project Path="FileWork/FileWork.csproj" Id="63fc643c-9fab-4829-b554-3dd9162bc041" />
   <Project Path="Fractal/Fraction.csproj" Id="647dc2af-6c73-4e2e-8b63-122bb16c5db7" />
   <Project Path="Human/Human.csproj" Id="805a2640-e41a-441b-94ac-ad7a11b34e0d" />
+  <Project Path="Interface/Interface.csproj" Id="c9d6a5d8-31f8-49ee-968c-d5b877388206" />
   <Project Path="Passport/Passport.csproj" Id="ea359f83-a3d9-4418-a9a1-49640415fb3b" />
   <Project Path="PassportNew/PassportNew.csproj" Id="abfffbe8-f11f-4733-950d-55b8b6453288" />
   <Project Path="rand/rand.csproj" Id="649f83ea-08c4-46d1-9e8e-6fe082390429" />
