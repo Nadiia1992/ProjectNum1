@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Щасливий квиток</title>
+</head>
+
+<body>
+    <h1>Щасливий квиток</h1>
+    <script>
+        let ticket = prompt("Введіть номер квитка:");
+
+        let sum1 = Number(ticket[0]) + Number(ticket[1]) + Number(ticket[2]);
+        let sum2 = Number(ticket[3]) + Number(ticket[4]) + Number(ticket[5]);
+        
+        let result = sum1 == sum2;
+
+        alert(
+            "Номер квитка: " + ticket +
+            "\nСума перших трьох цифр: " + sum1 +
+            "\nСума останніх трьох цифр: " + sum2 +
+            "\nРезультат: " +
+            (result ? "Щасливий квиток!" : "Не щасливий квиток.")
+        );
+    </script>
+</body>
+
+</html>

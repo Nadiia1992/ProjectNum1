@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Гра "Вгадай число"</title>
+</head>
+
+<body>
+    <h1>Гра "Вгадай число"</h1>
+
+    <script>
+        alert("Загадайте число від 0 до 100, а я спробую його вгадати!");
+
+        let min = 0;
+        let max = 100;
+        let N = 50;
+        let answer = "";
+        let number = 1;
+
+        while (answer != "==") {
+
+            answer = prompt(
+                "Спроба " + number +
+                "\nДіапазон: від " + min + " до " + max +
+                "\nМоє припущення: " + N +
+                "\n\nВаше число > " + N +
+                ", < " + N +
+                " чи == " + N + "?"
+            );
+
+            if (answer == ">") {
+                min = N + 1;
+            }
+
+            if (answer == "<") {
+                max = N - 1;
+            }
+
+            N = (min + max) / 2;
+
+            if (N % 1 != 0) {
+                N = N - 0.5;
+            }
+
+            number = number + 1;
+        }
+
+        alert("Ура! Я вгадав ваше число: " + N);
+    </script>
+
+</body>
+
+</html>
