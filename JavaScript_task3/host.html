@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HTTP адрес</title>
+</head>
+
+<body>
+
+    <script>
+        let address = prompt("Введіть HTTP-адресу:");
+
+        let protocol = address.split("://")[0];
+
+        let text = address.split("://")[1];
+
+        let host = text.split("/")[0];
+
+        let path = "/" + text.split("/")[1] + "/" + text.split("/")[2] + "/";
+
+        let file = text.split("/")[3].split("?")[0];
+
+        let query = text.split("?")[1];
+
+        alert(
+            "Протокол: " + protocol +
+            "\nХост: " + host +
+            "\nШлях: " + path +
+            "\nІм'я файлу: " + file +
+            "\nРядок запиту: " + query
+        );
+    </script>
+
+</body>
+
+</html>
