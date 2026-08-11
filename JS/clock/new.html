@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Електронний годинник</title>
+</head>
+
+<body>
+
+    <div style="text-align: center">
+
+        <img src="0.gif" id="hour1">
+        <img src="0.gif" id="hour2">
+
+        <img src="points.gif">
+
+        <img src="0.gif" id="minute1">
+        <img src="0.gif" id="minute2">
+
+        <img src="points.gif">
+
+        <img src="0.gif" id="second1">
+        <img src="0.gif" id="second2">
+
+    </div>
+
+    <script>
+
+        function clock() {
+
+            let time = new Date();
+
+            let hours = time.getHours();
+            let minutes = time.getMinutes();
+            let seconds = time.getSeconds();
+
+            let h = (hours + "").split("");
+            let m = (minutes + "").split("");
+            let s = (seconds + "").split("");
+
+            document.images["hour1"].src = h[0] + ".gif";
+            document.images["hour2"].src = h[1] + ".gif";
+
+            document.images["minute1"].src = m[0] + ".gif";
+            document.images["minute2"].src = m[1] + ".gif";
+
+            document.images["second1"].src = s[0] + ".gif";
+            document.images["second2"].src = s[1] + ".gif";
+
+            setTimeout("clock()", 1000);
+        }
+
+        clock();
+
+    </script>
+
+</body>
+
+</html>
