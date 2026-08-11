@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Функції</title>
+
+    <script>
+
+        // 1. stringFrom()
+        function stringFrom(...values) {
+            let result = "";
+
+            for (let i = 0; i < values.length; i++) {
+                result = result + values[i] + " ";
+            }
+
+            return result;
+        }
+
+
+        // 2. Мінімальне значення
+        function min(...values) {
+            let result = values[0];
+
+            for (let i = 1; i < values.length; i++) {
+                if (values[i] < result) {
+                    result = values[i];
+                }
+            }
+
+            return result;
+        }
+
+
+        // 3. Кількість числових аргументів
+        function numbers(...values) {
+            let result = 0;
+
+            for (let i = 0; i < values.length; i++) {
+                if (typeof values[i] == "number") {
+                    result = result + 1;
+                }
+            }
+
+            return result;
+        }
+
+
+        // 4. Середнє значення
+        function mean(...values) {
+            let sum = 0;
+            let count = 0;
+
+            for (let i = 0; i < values.length; i++) {
+
+                if (typeof values[i] == "number") {
+                    sum = sum + values[i];
+                    count = count + 1;
+                }
+            }
+
+            if (count == 0) {
+                return 0;
+            }
+
+            return sum / count;
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <script>
+
+        document.write("<h1>Результати</h1>");
+
+        document.write(
+            "Рядок: " + stringFrom("I have", 5, "apples") + "<br>"
+        );
+
+        document.write(
+            "Мінімальне значення: " + min(5, 2, 8, 1, 4) + "<br>"
+        );
+
+        document.write(
+            "Кількість чисел: " + numbers(1, 2, "a") + "<br>"
+        );
+
+        document.write(
+            "Середнє значення: " + mean(1, 2, "a") + "<br>"
+        );
+
+    </script>
+
+</body>
+
+</html>
