@@ -36,9 +36,9 @@
             let minutes = time.getMinutes();
             let seconds = time.getSeconds();
 
-            let h = (hours + "").split("");
-            let m = (minutes + "").split("");
-            let s = (seconds + "").split("");
+            let h = (hours < 10 ? "0" + hours : "" + hours).split("");
+            let m = (minutes < 10 ? "0" + minutes : "" + minutes).split("");
+            let s = (seconds < 10 ? "0" + seconds : "" + seconds).split("");
 
             document.images["hour1"].src = h[0] + ".gif";
             document.images["hour2"].src = h[1] + ".gif";
